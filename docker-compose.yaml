@@ -1,0 +1,11 @@
+
+services:
+  mongo:
+    image: mongo:8.0.10
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: merlin2996
+      MONGO_INITDB_ROOT_PASSWORD: ykcvSuUp8JMjKETH

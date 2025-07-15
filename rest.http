@@ -1,0 +1,5 @@
+### GET Rider coordinates
+GET http://localhost:3001
+
+### GET Rider coordinates from logging service
+GET http://localhost:3001/rider-coordinates
